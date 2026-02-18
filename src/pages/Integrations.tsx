@@ -91,7 +91,7 @@ const integrations = [
   },
 ];
 
-export default function Integrations() {
+export default function RateSheet() {
   return (
     <div>
       <div className="page-header">
