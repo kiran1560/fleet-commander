@@ -23,7 +23,7 @@ import Trainings from "./pages/Trainings";
 import Services from "./pages/Services";
 import Integrations from "./pages/Integrations";
 import NotFound from "./pages/NotFound";
-import RateSheet from "./pages/RateSheet";
+// import RateSheet from "./pages/RateSheet";
 
 const queryClient = new QueryClient();
 
@@ -36,7 +36,7 @@ const App = () => (
         <Routes>
           <Route element={<DashboardLayout />}>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/apex-forms" element={<ApexForms />} />
+            {/* <Route path="/apex-forms" element={<ApexForms />} /> */}
              <Route path="/integrations" element={<Integrations />} /> 
              <Route path="/ratesheet" element={<RateSheet />} />
             <Route path="/clients" element={<Clients />} />
