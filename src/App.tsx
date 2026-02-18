@@ -36,9 +36,9 @@ const App = () => (
         <Routes>
           <Route element={<DashboardLayout />}>
             <Route path="/" element={<Dashboard />} />
-            {/* <Route path="/apex-forms" element={<ApexForms />} /> */}
+             <Route path="/apex-forms" element={<ApexForms />} /> 
              <Route path="/integrations" element={<Integrations />} /> 
-             <Route path="/ratesheet" element={<RateSheet />} />
+             {/* <Route path="/ratesheet" element={<RateSheet />} /> */}
             <Route path="/clients" element={<Clients />} />
             <Route path="/clients/new" element={<AddClient />} />
             <Route path="/clients/:id" element={<ClientDetail />} />
