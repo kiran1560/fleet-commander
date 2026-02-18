@@ -25,6 +25,7 @@ import {
 const navSections = [
   { label: "Dashboard", icon: LayoutDashboard, path: "/" },
   { label: "APEX Forms", icon: FileText, path: "/apex-forms" },
+  { label: "Rate Sheet", icon: LinkIcon, path: "/integrations" },
   {
     label: "Clients",
     icon: Users,
@@ -60,7 +61,6 @@ const navSections = [
   { label: "IFTA", icon: FolderOpen, path: "/ifta" },
   { label: "Trainings", icon: GraduationCap, path: "/trainings" },
   { label: "Services & Billing", icon: DollarSign, path: "/services" },
-  { label: "Integrations", icon: LinkIcon, path: "/integrations" },
 ];
 
 export function AppSidebar({ collapsed, onToggle }: { collapsed: boolean; onToggle: () => void }) {
@@ -155,7 +155,7 @@ export function AppSidebar({ collapsed, onToggle }: { collapsed: boolean; onTogg
       {/* Footer */}
       {!collapsed && (
         <div className="border-t border-sidebar-border p-4">
-          <p className="text-xs text-sidebar-muted">© 2026 APEX TMS</p>
+          <p className="text-xs text-sidebar-muted">©  APEX </p>
         </div>
       )}
     </aside>
