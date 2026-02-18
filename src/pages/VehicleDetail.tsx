@@ -55,7 +55,7 @@ export default function VehicleDetail() {
       {activeTab === "Documents" && (
         <div className="rounded-lg border bg-card p-6">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="section-title mb-0">Vehicle Documents</h3>
+            <h3 className="section-title mb-0">Vehicle Documents (More documents can be added and given label)</h3>
             <button className="flex items-center gap-2 rounded-md bg-accent px-3 py-1.5 text-sm font-medium text-accent-foreground"><Upload className="h-3.5 w-3.5" /> Upload</button>
           </div>
           <div className="space-y-2">
