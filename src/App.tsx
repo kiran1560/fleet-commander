@@ -21,7 +21,7 @@ import UsersPage from "./pages/UsersPage";
 import IFTA from "./pages/IFTA";
 import Trainings from "./pages/Trainings";
 import Services from "./pages/Services";
-import Integrations from "./pages/Integrations";
+// import Integrations from "./pages/Integrations";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -56,7 +56,7 @@ const App = () => (
             <Route path="/ifta" element={<IFTA />} />
             <Route path="/trainings" element={<Trainings />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/integrations" element={<Integrations />} />
+            {/* <Route path="/integrations" element={<Integrations />} /> */}
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
