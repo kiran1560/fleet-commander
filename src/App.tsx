@@ -37,6 +37,7 @@ const App = () => (
           <Route element={<DashboardLayout />}>
             <Route path="/" element={<Dashboard />} />
             <Route path="/apex-forms" element={<ApexForms />} />
+             <Route path="/integrations" element={<Integrations />} /> 
              <Route path="/ratesheet" element={<RateSheet />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/clients/new" element={<AddClient />} />
@@ -58,7 +59,7 @@ const App = () => (
             <Route path="/ifta" element={<IFTA />} />
             <Route path="/trainings" element={<Trainings />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/integrations" element={<Integrations />} /> 
+           
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
