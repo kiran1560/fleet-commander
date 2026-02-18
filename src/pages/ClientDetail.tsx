@@ -110,7 +110,7 @@ export default function ClientDetail() {
           <FileText className="h-12 w-12 text-muted-foreground mx-auto mb-3" />
           <h3 className="section-title">{activeTab}</h3>
           <p className="text-sm text-muted-foreground mb-4">
-            {activeTab === "Documents" ? "Manage client documents and sub-folders." : `Manage ${activeTab} records.`}
+            {activeTab === "Documents" ? "Manage client documents and sub-folders. Each folder can have 4 or more sub folders" : `Manage ${activeTab} records.`}
           </p>
           <button className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-accent-foreground">
             {activeTab === "Documents" ? "Upload Document" : "View Sheet"}
